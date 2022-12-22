@@ -1,7 +1,6 @@
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //Program Description: The program lets two people play a game of tic-tac-toe.
 //Program Author: Ashley Allan 
-//Class and Term: CS2010 1001 Fall 2022
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 #include <iostream> std::cout
@@ -35,8 +34,6 @@ char character;
 // Function ReturnValue:	None
 // 
 // Function Author:		Ashley Allan 
-// 
-// Class and Term:		CS2010 1001 Fall 2022
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 void readInitialGrid(char values[ROWS][COLS], ifstream & infile) {
@@ -68,8 +65,6 @@ void readInitialGrid(char values[ROWS][COLS], ifstream & infile) {
 // Function ReturnValue:	None
 // 
 // Function Author:		Ashley Allan 
-// 
-// Class and Term:		CS2010 1001 Fall 2022
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 void initializeGrid(char values[ROWS][COLS]) {
@@ -230,9 +225,7 @@ void initializeGrid(char values[ROWS][COLS]) {
 //  
 // Function ReturnValue:	None
 // 
-// Function Author:		Ashley Allan 
-// 
-// Class and Term:		CS2010 1001 Fall 2022
+// Function Author:		Ashley Allan
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 void displayGrid(char values[ROWS][COLS]) {
@@ -258,9 +251,7 @@ void displayGrid(char values[ROWS][COLS]) {
 //  
 // Function ReturnValue:	True: if there is a winner, False: otherwise
 // 
-// Function Author:		Ashley Allan 
-// 
-// Class and Term:		CS2010 1001 Fall 2022
+// Function Author:		Ashley Allan
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 bool isWin(char values[ROWS][COLS], int moveCount) {
